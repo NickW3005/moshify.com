@@ -33,6 +33,7 @@ h2,
 h3 {
   color: var(--color-heading);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -676,4 +677,11 @@ nav.collapsible--expanded .nav__toggler {
   .nav__item {
     border: 0;
   }
+}
+
+/* Hero */
+
+.hero__tagline {
+  font-size: 2rem;
+  color: #b9c3cf;
 }
